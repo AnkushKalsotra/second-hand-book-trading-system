@@ -39,7 +39,7 @@
 
                     <div class="form-group">
                         <label for="signName">Name</label>
-                        <input type="name" class="form-control" id="signName" name="uname" placeholder="Enter your name"aria-describedby="emailHelp" maxlength = "30" required>
+                        <input type="name" class="form-control" id="signName" name="uname" placeholder="Enter your Full name"aria-describedby="emailHelp" maxlength = "30" required>
                     </div>
                     <div class="form-row">
                         <div class="col md-6">
