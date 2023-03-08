@@ -36,11 +36,6 @@
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                             else.</small>
                     </div>
-
-                    <div class="form-group">
-                        <label for="signName">Name</label>
-                        <input type="name" class="form-control" id="signName" name="uname" placeholder="Enter your Full name"aria-describedby="emailHelp" maxlength = "30" required>
-                    </div>
                     <div class="form-row">
                         <div class="col md-6">
                             <!--form-group-->
@@ -55,10 +50,10 @@
                             <label for="exampleSelect2">College</label>
                             <select class="form-control" id="exampleSelect2" name="cit">
                                 <option>RVCE</option>
-                                <!-- <option>BMS</option>
+                                <option>BMS</option>
                                 <option>MSRIT</option>
                                 <option>Dayanand Sagar</option>
-                                <option>RNSIT</option> -->
+                                <option>RNSIT</option>
                             </select>
                         </div>
                     </div>

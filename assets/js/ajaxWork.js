@@ -52,7 +52,7 @@ function showCustomers(){
 
 function showOrders(){
     $.ajax({
-        url:"./adminView/viewAllOrders.php",
+        url:"../adminView/viewAllOrders.php",
         method:"post",
         data:{record:1},
         success:function(data){

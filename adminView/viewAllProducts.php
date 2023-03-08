@@ -8,14 +8,14 @@
         <th class="text-center">Product Image</th>
         <th class="text-center">Product Name</th>
         <th class="text-center">Product Description</th>
-        <th class="text-center">Category Name</th>
+      
         <th class="text-center">Unit Price</th>
         <th class="text-center" colspan="2">Action</th>
       </tr>
     </thead>
     <?php
       include_once "../partials/dbconnect.php";
-      $sql="SELECT * from postbook, categ WHERE postbook.c_id=categ.c_id";
+      $sql="SELECT * from postbook" ;
       $result=$conn-> query($sql);
       $count=1;
       if ($result-> num_rows > 0){
@@ -26,7 +26,7 @@
       <td><img height='100px' src='<?=$row["pic1"]?>'></td>
       <td><?=$row["b_name"]?></td>
       <td><?=$row["descript"]?></td>      
-      <td><?=$row["category"]?></td> 
+     
       <td><?=$row["ex_pr"]?></td>     
       <!-- <td><button class="btn btn-primary" style="height:40px" onclick="itemEditForm('<?=$row['p_id']?>')">Edit</button></td> -->
       <td><button class="btn btn-danger" style="height:40px" onclick="itemDelete('<?=$row['p_id']?>')">Delete</button></td>
